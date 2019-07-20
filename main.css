@@ -71,14 +71,14 @@ margin: 5px;
 .nav-active{
     transform: translateX(0)
 }
-.img{
+.contact{
 width: 50%;
 position: absolute;
 margin-top: 0px;
 height:92vh;
 background-image: url('./bcg/p1.jpeg');
 background-attachment: fixed;
-background-position: center;
+background-position: space-between;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -90,4 +90,5 @@ background-repeat: no-repeat;
     padding: 8px 16px;
     outline: none;
     color: #504954;
+    cursor: pointer;
 }
