@@ -78,7 +78,7 @@ margin-top: 0px;
 height:92vh;
 background-image: url('./bcg/p1.jpeg');
 background-attachment: fixed;
-background-position: space-between;
+background-position: center;
 display: flex;
 justify-content: center;
 align-items: center;
