@@ -40,7 +40,7 @@ nav{
 .burger div{
 width: 25px;
 height: 3px;
-background-color: rgba(226, 226,226);
+background-color: rgb(236, 234, 234);
 margin: 5px;
 } 
 @media screen and (max-width:768px){
@@ -71,14 +71,23 @@ margin: 5px;
 .nav-active{
     transform: translateX(0)
 }
-
-@keyframes NavLinksFade{
-    from{
-opacity: 0;
-transform: translateX(50px);
-    }
-    to{
-opacity: 1;
-transform: translateX(0px);
-    }
+.img{
+width: 50%;
+position: absolute;
+margin-top: 0px;
+height:92vh;
+background-image: url('./bcg/p1.jpeg');
+background-attachment: fixed;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.click{
+    background-color: rgba(226, 226,226);
+    padding: 8px 16px;
+    outline: none;
+    color: #504954;
 }
